@@ -28,6 +28,7 @@ const Profile = () => {
     console.log(responce.data);
     setUserData(responce.data);
   }
+  
 
   useEffect(() => {
     fetchdata();
